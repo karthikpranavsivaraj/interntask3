@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Gallery</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            max-width: 350px;
+            width: 100%;
+        }
+        .gallery-item:hover {
+            transform: translateZ(10px);
+            transform: translateX(10px);
+
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item img {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-item p {
+            padding: 15px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Trading Image Gallery</h1>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="image1.jpeg" alt="Stock Market" class="img-fluid">
+            <p>The stock market refers to the collection of markets and exchanges where activities such as buying, selling, and issuance of shares of publicly-held companies take place. It plays a crucial role in the economic growth of a country by providing a platform for companies to raise capital and for investors to gain ownership in those companies.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Forex Trading" class="img-fluid">
+            <p>Forex trading, or foreign exchange trading, is the act of buying and selling currencies with the aim of making a profit. The forex market is the largest and most liquid market in the world, with trillions of dollars traded daily. It operates 24 hours a day, five days a week, and involves a diverse range of participants including banks, financial institutions, corporations, and individual traders.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Cryptocurrency Trading" class="img-fluid">
+            <p>Cryptocurrency trading involves the buying and selling of digital currencies such as Bitcoin, Ethereum, and others. This form of trading has gained significant popularity due to the high volatility of cryptocurrencies, which can provide substantial profit opportunities. However, it also carries a high level of risk. Cryptocurrencies are traded on various exchanges and can be stored in digital wallets.</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
